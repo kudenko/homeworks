@@ -1,0 +1,54 @@
+﻿body{
+	font-size: 105%;
+	margin:auto;
+	padding:10px;
+	width: 800px;
+	background-color:#E8E8D2;
+}
+
+
+header{
+	text-align: center;
+	line-height: 5px;
+}
+.contacts{
+color: grey;
+font-size: 14px;	
+}
+img{
+	width:25%;
+	height: 25%;
+	float: right;
+	margin-right:5%;
+}
+footer{
+	text-align: center;
+	line-height: 5px;
+}
+.skills{
+	list-style-type: square;
+}
+.self{
+	list-style-type: circle;
+}
+.education{
+	list-style-type: circle;
+}
+.languages{
+	list-style-type: square;
+}
+.about{
+	font-weight: bold;
+}
+caption{
+	font-weight: bold;
+}
+table{
+	border-collapse: 	collapse;
+	border:7px black;
+}
+td{
+	padding: 5px;
+	text-align:center;
+	vertical-align:center;
+}
