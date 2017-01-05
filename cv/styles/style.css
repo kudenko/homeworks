@@ -10,12 +10,17 @@
 header{
 	text-align: center;
 	line-height: 5px;
+	background-color: dimgray;
+	padding: 5px;
+width: 820px;
+margin-left: -10px;
 }
 .contacts{
-color: grey;
-font-size: 14px;	
+color: gainsboro;
+font-size: 14px;
+padding-top: 1px;
 }
-img{
+img:first-child{
 	width:25%;
 	height: 25%;
 	float: right;
@@ -24,6 +29,10 @@ img{
 footer{
 	text-align: center;
 	line-height: 5px;
+	background-color: dimgray;
+	padding: 5px;
+	width: 820px;
+	margin-left: -10px;
 }
 .skills{
 	list-style-type: square;
@@ -46,9 +55,17 @@ caption{
 table{
 	border-collapse: 	collapse;
 	border:7px black;
+	width: 800px;
 }
 td{
 	padding: 5px;
 	text-align:center;
 	vertical-align:center;
+}
+.social{
+	width: 80px;
+text-align: center;
+margin: auto;
+margin-bottom: 50px;
+margin-left: 350px;
 }
