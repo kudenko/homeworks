@@ -1,19 +1,20 @@
 <?php
 
-    $weekDays = array('понедельник', 'вторник', 'среда', 'четверг', 'пятница',
-     'суббота', 'воскресенье');
+    $weekDays = array('Mon' => 'понедельник', 'Tue' => 'вторник',
+    'Wed' => 'среда', 'Thu' => 'четверг', 'Fri' => 'пятница',
+    'Sat' => 'суббота', 'Sun' => 'воскресенье');
 
-    $day = 'суббота';
+    $day = date('D');
 
-     foreach ($weekDays as $d) {
+     foreach ($weekDays as $d => $ruDay) {
 
        if($d == $day){
 
-        echo "<i> {$d} </i>";
+        echo "<i> {$ruDay} </i>";
 
       }else{
 
-        echo "{$d} ";
+        echo "{$ruDay} ";
 
       }
      }
