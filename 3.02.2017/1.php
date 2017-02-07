@@ -1,5 +1,5 @@
 <?php
-    setcookie('color', $_POST['color'], time()+30);
+    setcookie('color', $_POST['color'], time()+300);
     if($_POST){
        $color = $_POST['color'];
      }else if($_COOKIE){$color = $_COOKIE['color'];
