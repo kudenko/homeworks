@@ -1,9 +1,14 @@
 <?php
+    if(empty($_COOKIE)){
     setcookie('color', $_POST['color'], time()+300);
+  }
+    //standart color
+    $color = 'blue';
+
     if($_POST){
        $color = $_POST['color'];
      }else if($_COOKIE){$color = $_COOKIE['color'];
-  }else{$color = 'blue';}
+  }
 
     echo "<style>
         body{
